@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter } from 'react-router-dom';
+import Weather from "./pages/Weather"
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
