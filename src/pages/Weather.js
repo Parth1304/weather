@@ -4,7 +4,7 @@ import React from 'react'
 
 function fetchFromApi(city){
   const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
-  return fetch (`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`)
+  return fetch (`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`)
   
 } 
 
