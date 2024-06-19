@@ -20,7 +20,7 @@ export default function Weather(){
     console.log(data)
     setHumidity(data.current.humidity)
     setTemp(data.current.feelslike_c)
-    debugger
+    
   }
 
 
